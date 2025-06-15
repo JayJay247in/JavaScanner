@@ -1,4 +1,4 @@
-# jnetscan
+# JavaScanner
 Java Network Scanner - JavaScanner -
 
 jnetscan is a simple java network utility, it allows you to scan networks, find reachable hosts , opened ports and sheared resources, with additional functions (ping, trace route, netstat, send message, ...)
