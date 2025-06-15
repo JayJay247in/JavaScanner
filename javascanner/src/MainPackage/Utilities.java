@@ -6,10 +6,6 @@ import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author benbac
- */
 
 public class Utilities {
 

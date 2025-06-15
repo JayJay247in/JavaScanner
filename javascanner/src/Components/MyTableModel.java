@@ -3,16 +3,6 @@ package Components;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
-/*
- * MyTableModel.java
- *
- * Created on Feb, 09 2008, 07:40
- */
-
-/**
- *
- * @author benbac
- */
 
 public class MyTableModel extends AbstractTableModel {
     

@@ -3,10 +3,6 @@ package MainPackage;
 import java.awt.Desktop;
 import java.net.URI;
 
-/**
- *
- * @author  benbac
- */
 
 public class AboutJFrame extends javax.swing.JFrame {
     
@@ -44,12 +40,12 @@ public class AboutJFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14));
         jLabel1.setText("Java Network Scanner");
 
-        jLabel2.setText("[jnetscan] 0.1 Beta");
+        jLabel2.setText("[JavaScanner] 0.1 Beta");
 
         jLabel3.setText("Bugs, suggestions, comments, questions; please contact us.");
 
         jLabel4.setForeground(java.awt.Color.blue);
-        jLabel4.setText("http://sourceforge.net/projects/jnetscan/");
+        jLabel4.setText("https://github.com/JayJay247in/JavaScanner.git");
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
@@ -57,7 +53,7 @@ public class AboutJFrame extends javax.swing.JFrame {
         });
 
         jLabel5.setForeground(java.awt.Color.blue);
-        jLabel5.setText("pfe062008@gmail.com");
+        jLabel5.setText("cj193532@gmail.com");
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
@@ -69,12 +65,12 @@ public class AboutJFrame extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setEditable(false);
         jTextArea1.setRows(3);
-        jTextArea1.setText("BENYAMMI Bachir\nHASSANI Mustapha\nBEN SAID Lahcen");
+        jTextArea1.setText("IKECHUKWU Faithful\nJAY Jay\nLOGIC");
         jScrollPane1.setViewportView(jTextArea1);
 
         jScrollPane2.setViewportView(jScrollPane1);
 
-        jLabel6.setText("March 28, 2008");
+        jLabel6.setText("June 15, 2025");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -162,7 +158,7 @@ public class AboutJFrame extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         try {
-            Desktop.getDesktop().mail(new URI("mailto:pfe062008@gmail.com"));
+            Desktop.getDesktop().mail(new URI("mailto:cj193532@gmail.com"));
         }
         catch (Exception e) {
             e.getStackTrace();
@@ -171,7 +167,7 @@ public class AboutJFrame extends javax.swing.JFrame {
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         try {        
-            Desktop.getDesktop().browse(new URI("http://sourceforge.net/projects/jnetscan/"));
+            Desktop.getDesktop().browse(new URI("https://github.com/JayJay247in/JavaScanner.git"));
         }
         catch (Exception e) {
             e.getStackTrace();

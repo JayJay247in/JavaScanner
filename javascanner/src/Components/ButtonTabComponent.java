@@ -6,19 +6,7 @@ import javax.swing.plaf.basic.BasicButtonUI;
 import java.awt.*;
 import java.awt.event.*;
 
-/** 
- * ButtonTabComponent.java
- * Article : The Java Tutorials - Tabs With Custom Components
- * Autur : Sun Microsystems
- * URL : http://java.sun.com/docs/books/tutorial/uiswing/components/tabbedpane.html
- * Source code : http://java.sun.com/docs/books/tutorial/uiswing/examples/zipfiles/components-TabComponentsDemoProject.zip
- */
 
-/**
- * Component to be used as tabComponent;
- * Contains a JLabel to show the text and 
- * a JButton to close the tab it belongs to 
- */ 
 public class ButtonTabComponent extends JPanel {
     private final JTabbedPane pane;
 

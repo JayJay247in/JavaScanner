@@ -4,10 +4,7 @@ import MainPackage.Utilities;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-/**
- *
- * @author benbac
- */
+
 public class Ports {
 
     /** Get list of ports from given string */  

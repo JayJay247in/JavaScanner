@@ -1,10 +1,7 @@
 package ScanObjects;
 
 import MainPackage.*;
-/**
- *
- * @author benbac
- */
+
 public class ScanUpdates extends Thread{
     private long timeInMillisnow, timeHostEstim, timePortEstim, timeDiff;
     private boolean ScanPortsRunning = true, ScanHostsRunning = true;

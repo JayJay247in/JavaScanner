@@ -1,8 +1,3 @@
-/*
- * AddObjectDialog.java
- *
- * Created on 09 فبراير, 2008, 10:18 ص
- */
 
 package MainPackage;
 

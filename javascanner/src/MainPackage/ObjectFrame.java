@@ -10,10 +10,7 @@ import java.util.concurrent.*;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author  benbac
- */
+
 public class ObjectFrame extends javax.swing.JInternalFrame{
 
     private MyTableModel tableModal = new MyTableModel();

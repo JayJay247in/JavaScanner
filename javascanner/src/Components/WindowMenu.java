@@ -7,18 +7,6 @@ import javax.swing.event.*;
 import java.awt.event.*;
 import java.beans.*;
 
-/*
-*  WindowMenu.java
-*  Article : Conquer Swing deficiencies in MDI development
-*  Autur : Gerald Nunn, JavaWorld.com, 05/25/01
-*  URL : http://www.javaworld.com/javaworld/jw-05-2001/jw-0525-mdi.html
-*  Source code : http://www.javaworld.com/jw-05-2001/mdi/jw-0525-mdi.zip
-*/
-
-/**
- *
- * @author Gerald Nunn
- */
 
 public class WindowMenu extends JMenu {
     private JDesktopPane desktop;

@@ -14,17 +14,15 @@ import java.awt.event.*;
 import java.beans.*;
 import javax.swing.event.*;
 
-/*
+/**
  * MainFrame.java
  *
- * Created on Jan, 16 2008, 10:20
- */
-
-/**
+ * Created on 15. June 2025, 16:00
  *
- * @author  benbac
+ * This is the main frame of the Java Network Scanner application.
+ * It contains a list of network objects and provides functionality to add,
+ * remove, and manage these objects.
  */
-
 public class MainFrame extends javax.swing.JFrame {
 
     public static DefaultListModel objectModel;
@@ -111,7 +109,7 @@ public class MainFrame extends javax.swing.JFrame {
         jPopupMenu.add(jMenuItemRemove);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Java Network Scanner [jnetscan] 0.1 Bata");
+        setTitle("Java Network Scanner [JavaScanner] 0.1 Beta");
         setBounds(new java.awt.Rectangle(100, 100, 0, 0));
 
         jToolBar.setRollover(true);
@@ -314,7 +312,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jAboutMenu.setText("About");
 
-        jAboutMenuItem.setText("About jnetscan");
+        jAboutMenuItem.setText("About JavaScanner");
         jAboutMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);

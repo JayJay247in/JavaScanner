@@ -3,10 +3,7 @@ package MainPackage;
 import NetUtils.NetIntes;
 import javax.swing.SwingWorker;
 
-/**
- *
- * @author  benbac
- */
+
 public class LocalMachineFrame extends javax.swing.JInternalFrame {
 
     /** Creates new form LocalMachineFrame */

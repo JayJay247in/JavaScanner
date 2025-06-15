@@ -10,10 +10,7 @@ import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Vector;
 
-/**
- *
- * @author benbac
- */
+
 public class NetIntes {
     
     /** Return list of local network interfaces devices names */

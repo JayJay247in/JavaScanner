@@ -2,10 +2,7 @@ package ScanObjects;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author benabc
- */
+
 
 public class ObjectsList {
     
